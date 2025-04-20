@@ -1,3 +1,8 @@
+import soleSouls from "../assets/solesouls.jpg";
+import jobPortal from "../assets/jobportal.jpg";
+import touristRec from "../assets/touristrec.jpg";
+import taskManager from "../assets/taskmanager.jpg";
+
 export const HERO_CONTENT = `Driven by curiosity and a love for problem-solving.
 Constantly learning, building, and creating smart solutions — with clean code, thoughtful design, and plenty of coffee to fuel the journey!`;
 
@@ -52,15 +57,15 @@ export const EDUCATION = [
 export const PROJECTS = [
   {
     title: "SoleSouls - Shoe Selling Web App",
-    image: "../assets/solesouls.jpg",
-    github: "https://github.com/notechie/SoleSouls-ecommerce-app",
+    image: soleSouls,
+    github: "shoe",
     description:
-      "A stylish front-end web application for a fictional shoe store, showcasing product collections using HTML, CSS, and JavaScript.",
+      "A stylish and responsive front-end web application for a fictional shoe store. Built with HTML, CSS, and JavaScript, it features a modern layout, product showcase, and smooth interactions to simulate an engaging shopping experience.",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Job Portal Backend API",
-    image: "../assets/jobportal.jpg",
+    image: jobPortal,
     github: "https://github.com/notechie/job-portal-nodejs",
     description:
       "A robust backend API built using Node.js, Express, and MongoDB that powers a job portal system. It supports user registration, login, and secure JWT-based authentication. Authenticated users can create, update, delete, and filter job listings, with added support for job statistics, pagination, and advanced filtering options.",
@@ -76,10 +81,10 @@ export const PROJECTS = [
   },
   {
     title: "Tourist Recommendation System",
-    image: "../assets/touristrec.jpg",
+    image: touristRec,
     github: "https://github.com/notechie/TourRecomSys",
     description:
-      "A recommendation system built using content-based filtering, rule-based filtering, and a Random Forest model. Frontend built with Flask and JavaScript.",
+      "A smart tourist recommendation system designed to suggest travel destinations based on user preferences. It combines content-based filtering, rule-based logic, and a Random Forest machine learning model to deliver accurate suggestions. The frontend is built using Flask and JavaScript, providing a simple and interactive user experience.",
     technologies: [
       "Python",
       "Pandas",
@@ -92,10 +97,10 @@ export const PROJECTS = [
   },
   {
     title: "Task Manager with Calendar Integration",
-    image: "../assets/taskmanager.jpg",
+    image: taskManager,
     github: "https://github.com/notechie/task-manager",
     description:
-      "A Flask-based to-do list application with styled UI, deadline tracking, calendar visualization, task editing, and status toggling features.",
+      "A feature-rich Flask-based to-do list application designed for efficient task management. It includes a clean and responsive UI, support for adding, editing, and deleting tasks, deadline tracking, and real-time status toggling between complete and incomplete. The app also integrates a calendar view to visually display tasks based on their due dates, enhancing organization and planning.",
     technologies: ["Python", "Flask", "HTML", "CSS", "JavaScript", "JSON"],
   },
 ];
